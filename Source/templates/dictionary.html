@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Greek Converter</title>
+	<link rel="stylesheet" href="../static/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Ini NAVBAR -->
+	<nav class="navbar">
+		<div class="navbar_container">
+			<a href="/" id="navbar_logo"> <i class="fas fa-language"></i> Greek Converter</a>
+			<div class="navbar_toggle" id="mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="navbar_menu">
+				<li class="navbar_item">
+					<a href="/" class="navbar_links">Home</a>
+				</li>
+				<li class="navbar_item">
+					<a href="/kamus" class="navbar_links">Dictionary</a>
+				</li>
+				<li class="navbar_btn">
+					<a href="/upload" class="button">Start</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Ini KONTEN -->
+	<div class="main">
+		<div class="main_container">
+			<div class="main_content">	
+				<h2>Greek Dictionary</h2>
+				<br>
+				<table class="content_table">
+                	<thead>
+                    <tr>
+                        <th>Greek Coin </th>
+                        <th>Classical Greek</th>
+                        <th>Theodotus Greek</th>
+                        <th>Transliteration</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+	                    <tr>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/A.png" alt="A"  onclick="myFunction(this);" >
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/A1.png" alt="A"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/A2.png" alt="A"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>A (Alpha)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/B.png" alt="B"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/B1.png" alt="B"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/B2.png" alt="B"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>B (Beta)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/G.png" alt="G"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/G1.png" alt="G"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/G2.png" alt="G"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>G (Gamma)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/D.png" alt="D"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/D1.png" alt="D"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/D2.png" alt="D"  onclick="myFunction(this);" >
+	                        </td>
+	                        <td>D (Delta)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/E.png" alt="E"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/E1.png" alt="E"  onclick="myFunction(this);" >
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/E2.png" alt="E"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>E (Epsilon)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/Z.png" alt="Z"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Z1.png" alt="Z"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Z2.png" alt="Z"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>Z (Zeta)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/Th.png" alt="Th"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Th1.png" alt="Th"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Th2.png" alt="Th"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>Th (Theta)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/I.png" alt="I"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/I1.png" alt="I"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/I2.png" alt="I"  onclick="myFunction(this);" >
+	                        </td>
+	                        <td>I (Iota)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/K.png" alt="K"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/K1.png" alt="K"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/K2.png" alt="K"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>K (Kappa)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/L.png" alt="L"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/L1.png" alt="L"  onclick="myFunction(this);"></td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/L2.png" alt="L"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>L (Lambda)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/M.png" alt="M"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/M1.png" alt="M"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/M2.png" alt="M"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>M (Mu)</td>
+	                    </tr>
+                    </tbody>
+                </table>
+			</div>
+			<div class="main_content">
+				<table class="content_table">
+                	<thead>
+                    <tr>
+                        <th>Greek Coin </th>
+                        <th>Classical Greek</th>
+                        <th>Theodotus Greek</th>
+                        <th>Transliteration</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+						<tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/N.png" alt="N"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/N1.png" alt="N"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/N2.png" alt="N"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>N (Nu)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/X1.png" alt="X"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/X.png" alt="X"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/X2.png" alt="X"  onclick="myFunction(this);" >
+	                        </td>
+	                        <td>X (Xi)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/O.png" alt="O"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/O1.png" alt="O"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/O2.png" alt="O"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>O (Omikron)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/P.png" alt="P"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/P1.png" alt="P"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/P2.png" alt="P"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>P (Pi)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/R.png" alt="R"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/R1.png" alt="R"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/R2.png" alt="R"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>R (Rho)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/S.png" alt="S"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/S1.png" alt="S"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/S2.png" alt="S"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>S (Sigma)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/T.png" alt="T"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/T1.png" alt="T"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/T2.png" alt="T"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>T (Tau)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/U.png" alt="U"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/U1.png" alt="U"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/U2.png" alt="U"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>U (Upsilon)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/Ph.png" alt="Ph"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Ph1.png" alt="Ph"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Ph2.png" alt="Ph"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>Ph (Phi)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/Kh.png" alt="Kh"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Kh1.png" alt="Kh"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Kh2.png" alt="Kh"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>Kh (Chi)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/Psi.png" alt="Psi"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/Psi1.png" alt="Psi"  onclick="myFunction(this);">
+	                        </td>
+	                        <td><img id="prev_foto" src="../static/kamus/Psi2.png" alt="Psi"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>Ps (Psi)</td>
+	                    </tr>
+	                    <tr>
+	                        <th>
+	                        	<img id="prev_foto" src="../static/kamus/W.png" alt="W"  onclick="myFunction(this);">
+	                        </th>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/W1.png" alt="W"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>
+	                        	<img id="prev_foto" src="../static/kamus/W2.png" alt="W"  onclick="myFunction(this);">
+	                        </td>
+	                        <td>W (Omega)</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ini Footer -->
+	<div class="footer_container">
+		<div class="social_media">
+			<div class="social_media_wrap">
+				<div class="footer_logo">
+					<a href="" id="footer_logo"><i class="fas fa-language"></i>Greek Converter</a>
+				</div>
+				<p class="website_rights">Rifqi Finaldy 2021. All right reserved</p>
+				<div class="social_icons">
+					<a href="/" class="social_icons_link" target="_blank">
+						<i class="fab fa-facebook"></i>
+					</a>
+					<a href="/" class="social_icons_link" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="/" class="social_icons_link" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="/" class="social_icons_link" target="_blank">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../static/assets/scripts/script.js"></script>
+
+
+</body>
+</html>
